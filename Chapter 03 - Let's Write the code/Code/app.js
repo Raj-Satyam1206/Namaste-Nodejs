@@ -7,7 +7,12 @@ console.log(name);
 console.log(c);
 
 // console.log(global)
-// The globalThis global property contains the global this value, which is usually akin to the global object.
+// globalThis is a built-in JavaScript object which refers to the global object
+
+
+console.log(this); // EMPTY OBJECT
+// {}
 
 console.log(globalThis)
-console.log(globalThis=== global)
+console.log(globalThis === global) 
+// In Node.js level, this will return to true
