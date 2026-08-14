@@ -1,7 +1,8 @@
-function calculateMultiply(a, b) {
-    const multiply = a * b;
-    console.log(multiply)
+console.log("Multiply Module");
+
+const calcmultiply = (a , b) =>{
+    console.log("Product:" , a * b);
 }
-module.exports = {
-    calculateMultiply: calculateMultiply
-}
+
+module.exports = {calcmultiply};
+
