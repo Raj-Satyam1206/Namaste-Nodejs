@@ -1,5 +1,5 @@
-const { calculateMultiply } = require("./multiply")
-const { calculateSum } = require("./sum")
+const { calcmultiply} = require("./multiply")
+const { calcsum } = require("./sum")
 
 // #exporting modules
-module.exports = { calculateSum, calculateMultiply };
+module.exports = { calcsum, calcmultiply};
